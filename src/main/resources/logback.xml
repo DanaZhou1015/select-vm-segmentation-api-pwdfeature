@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+    <property name="PROJECT_NAME" value="audience-curation"/>
+    <property name="LOG_HOME" value="/tmp/acp-be"/>
+    <include resource="com/acxiom/ams/common/model.xml"/>
+
+    <!-- log out level -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="ERROR"/>
+        <appender-ref ref="INFO"/>
+        <appender-ref ref="DEBUG"/>
+    </root>
+</configuration>
